@@ -33,8 +33,10 @@ ZJetBalancePlotter -inFile ${ROOTCOREBIN}/data/ZJetBalance/PlotterExampleInput.r
 Then you will see Zjet_DB_Gauss_fits.pdf as output.
 
 * How to setup the JES_REesponseFitter
+```
 rc checkout_pkg atlasperf/CombPerf/JetETMiss/JetCalibrationTools/JES_ResponseFitter/trunk
-edit 1) Root/JES_BalanceFitter.cxx, 2) cmt/Makefile.RootCore
+```
+edit 1) Root/JES_BalanceFitter.cxx, 2) cmt/Makefile.RootCore as following
 
 1) add 'using namespace std;' in Root/JES_BalanceFitter.cxx
 
